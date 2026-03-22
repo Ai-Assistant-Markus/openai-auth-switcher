@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "provider": "openai-codex",
+  "activeAccount": "primary@example.com",
+  "accounts": {
+    "primary@example.com": {
+      "enabled": true,
+      "provider": "openai-codex",
+      "notes": "Primary OpenAI OAuth account.",
+      "snapshots": {
+        "main": "/ABSOLUTE/PATH/TO/main-auth-profiles.primary.json",
+        "social": "/ABSOLUTE/PATH/TO/social-auth-profiles.primary.json",
+        "spark": "/ABSOLUTE/PATH/TO/spark-auth-profiles.primary.json"
+      }
+    },
+    "backup@example.com": {
+      "enabled": false,
+      "provider": "openai-codex",
+      "notes": "Backup account kept parked until quota or reset window is healthy.",
+      "unavailableUntil": "2026-03-25",
+      "aliases": [
+        "backup+alt@example.com"
+      ],
+      "snapshots": {
+        "main": "/ABSOLUTE/PATH/TO/main-auth-profiles.backup.json",
+        "social": "/ABSOLUTE/PATH/TO/social-auth-profiles.backup.json",
+        "spark": "/ABSOLUTE/PATH/TO/spark-auth-profiles.backup.json"
+      }
+    }
+  }
+}
