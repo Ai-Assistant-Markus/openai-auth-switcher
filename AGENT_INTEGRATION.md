@@ -25,6 +25,11 @@ python3 openai_auth_switcher.py --registry ./registry.local.json maybe-switch
 4. If result is `install`, retry the failed task once.
 5. If result is `noop`, escalate to operator.
 
+If you want a minimal shell wrapper for this exact pattern, see:
+
+- `AUTOMATION_EXAMPLE.md`
+- `examples/retry_once.sh`
+
 ## Suggested Agent Policy Snippet
 
 You can adapt the following into your agent docs or playbook:

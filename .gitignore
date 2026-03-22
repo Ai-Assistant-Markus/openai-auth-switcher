@@ -1,6 +1,8 @@
 registry.local.json
 state/
 backups/
+assets/
+social/
 __pycache__/
 *.pyc
 *.pyo

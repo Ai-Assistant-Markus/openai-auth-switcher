@@ -39,6 +39,8 @@ This tool is intentionally conservative.
 - `openai_auth_switcher.py`
 - `registry.example.json`
 - `AGENT_INTEGRATION.md`
+- `AUTOMATION_EXAMPLE.md`
+- `examples/retry_once.sh`
 
 ## Assumptions
 
@@ -119,6 +121,10 @@ python3 openai_auth_switcher.py \
 
 If no enabled backup account is available, it returns a `noop` result instead
 of guessing.
+
+See also:
+- `AUTOMATION_EXAMPLE.md`
+- `examples/retry_once.sh`
 
 ## Verify It In Isolation
 
