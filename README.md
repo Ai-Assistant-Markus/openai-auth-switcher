@@ -172,15 +172,15 @@ That keeps the logic explicit:
 - solve unrelated provider failures
 - manage model routing beyond installing auth snapshots
 
-## Before Publishing
+## Do Not Commit
 
-If you open-source this, make sure you do **not** include:
+When using this tool in your own setup, make sure you do **not** commit:
 - real email addresses
 - real snapshot paths
 - real auth JSON files
 - real state files
 
-Publish only:
+Commit only:
 - the script
 - the example registry
 - onboarding docs
